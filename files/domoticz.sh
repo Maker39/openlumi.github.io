@@ -5,6 +5,9 @@
 
 echo "start installation"
 opkg update
+
+# opkg install libnghttp2-14
+
 opkg install curl git-http libmbedtls12 libustream-mbedtls shadow-usermod
 opkg install liblua5.3-5.3_5.3.5-4_arm_cortex-a9_neon.ipk
 opkg install lua5.3_5.3.5-4_arm_cortex-a9_neon.ipk
