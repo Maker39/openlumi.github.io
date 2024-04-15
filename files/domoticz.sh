@@ -13,8 +13,8 @@ opkg update
 # opkg install python3-pip python3-asyncio python3-evdev
 
 opkg install curl git-http libmbedtls12 libustream-mbedtls shadow-usermod
-opkg install liblua5.3-5.3_5.3.5-4_arm_cortex-a9_neon.ipk
-opkg install lua5.3_5.3.5-4_arm_cortex-a9_neon.ipk
+opkg install liblua5.3-5.3
+opkg install lua5.3
 opkg install domoticz
 
 usermod -a -G audio domoticz
