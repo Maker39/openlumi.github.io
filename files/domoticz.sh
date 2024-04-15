@@ -9,6 +9,7 @@ opkg update
 # from 
 # opkg install libnghttp2-14
 
+
 # from lumimqtt
 # opkg install python3-pip python3-asyncio python3-evdev
 
@@ -16,6 +17,9 @@ opkg install curl git-http libmbedtls12 shadow-usermod
 opkg install liblua5.3-5.3
 opkg install lua5.3
 opkg install domoticz
+
+# Для Z2M нужен питон
+# opkg install python3
 # opkg install libustream-mbedtls
 
 usermod -a -G audio domoticz
