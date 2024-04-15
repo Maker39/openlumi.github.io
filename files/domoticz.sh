@@ -1,7 +1,7 @@
 #!/bin/sh
 # Domoticz installer script by @lmahmutov
 # changes for 23.05 by @Maker39
-
+# wget https://raw.githubusercontent.com/Maker39/openlumi.github.io/master/files/domoticz.sh -O - | sh
 
 echo "start installation"
 opkg update
