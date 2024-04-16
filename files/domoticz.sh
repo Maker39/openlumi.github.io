@@ -21,7 +21,7 @@ opkg install domoticz
 # Для Z2M нужен питон
 # opkg install python3
 # opkg install libustream-mbedtls
-
+#? opkg install python3-dev
 usermod -a -G audio domoticz
 usermod -a -G dialout domoticz
 
